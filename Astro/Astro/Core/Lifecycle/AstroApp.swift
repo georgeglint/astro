@@ -9,6 +9,12 @@ import SwiftUI
 
 @main
 struct AstroApp: App {
+    // MARK: - Properties
+    
+    @StateObject var theme = Theme()
+    
+    // MARK: - UI Elements
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
