@@ -17,7 +17,8 @@ struct AstroApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AstroListView(viewModel: AstroListViewModel())
+                .environmentObject(theme)
         }
     }
 }

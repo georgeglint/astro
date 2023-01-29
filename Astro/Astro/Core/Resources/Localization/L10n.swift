@@ -10,6 +10,11 @@ import Foundation
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum L10n {
+  /// Localizable.strings
+  ///   Astro
+  /// 
+  ///   Created by George Leadbeater on 29/01/2023.
+  internal static let dAstronauts = L10n.tr("Localizable", "d_astronauts", fallback: "Astronauts")
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces
