@@ -45,7 +45,7 @@ struct AstroListView<Model>: View where Model: AstroListViewModelProtocol {
                     )
                 }
             }
-//            .navigationTitle(L10n.dAstronauts)
+            .navigationTitle(L10n.dAstronauts)
         }.onAppear(perform: {
             Task {
                 await viewModel.fetchAstronauts()

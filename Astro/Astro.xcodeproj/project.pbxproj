@@ -46,6 +46,7 @@
 		759ECFCA2986DC89008F39B5 /* AstroListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFC92986DC89008F39B5 /* AstroListRow.swift */; };
 		759ECFCD2986DD27008F39B5 /* MockAstroListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFCC2986DD27008F39B5 /* MockAstroListViewModel.swift */; };
 		759ECFD12986DE7E008F39B5 /* AstroListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFCF2986DE5D008F39B5 /* AstroListViewModelTests.swift */; };
+		759ECFD42986DF2E008F39B5 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 759ECFD32986DF2E008F39B5 /* SDWebImageSwiftUI */; };
 		E995328BA142FBE4B9FF26B8 /* Pods_Astro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C69564FE8CFF02DEAA1E7BE /* Pods_Astro.framework */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759ECFD42986DF2E008F39B5 /* SDWebImageSwiftUI in Frameworks */,
 				E995328BA142FBE4B9FF26B8 /* Pods_Astro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +441,9 @@
 			dependencies = (
 			);
 			name = Astro;
+			packageProductDependencies = (
+				759ECFD32986DF2E008F39B5 /* SDWebImageSwiftUI */,
+			);
 			productName = Astro;
 			productReference = 759ECF2E29869F87008F39B5 /* Astro.app */;
 			productType = "com.apple.product-type.application";
@@ -491,6 +496,9 @@
 				Base,
 			);
 			mainGroup = 759ECF2529869F87008F39B5;
+			packageReferences = (
+				759ECFD22986DF2E008F39B5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 759ECF2F29869F87008F39B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -938,6 +946,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		759ECFD22986DF2E008F39B5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		759ECFD32986DF2E008F39B5 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 759ECFD22986DF2E008F39B5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 759ECF2629869F87008F39B5 /* Project object */;
 }
