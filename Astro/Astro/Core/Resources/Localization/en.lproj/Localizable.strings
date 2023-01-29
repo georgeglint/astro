@@ -9,8 +9,15 @@
 "a_apply" = "Apply";
 "a_clear" = "Clear";
 "a_filter" = "Filter";
+"a_view" = "View";
 
 "d_all" = "All";
 "d_astronauts" = "Astronauts";
+"d_bio" = "Bio:";
+"d_date_of_birth" = "Date of Birth:";
 "d_filter" = "Filter";
 "d_type" = "Type";
+
+"n_instagram" = "Instagram";
+"n_twitter" = "Twitter";
+"n_wikipedia" = "Wikipedia";

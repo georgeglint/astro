@@ -33,7 +33,9 @@ struct AstroListView<Model>: View where Model: AstroListViewModelProtocol {
             List {
                 Section {
                     ForEach(viewModel.astronauts, id: \.id) { astronaut in
+                        NavigationLink(destination: AstroDetailView(viewModel: AstroDetailViewModel(astronaut: astronaut))) {
                             AstroListRow(astronaut: astronaut)
+                        }
                         .listRowSeparator(.hidden)
                         .listRowBackground(
                             RoundedRectangle(cornerRadius: theme.spacing.extraSmall)
