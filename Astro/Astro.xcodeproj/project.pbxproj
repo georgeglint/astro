@@ -37,6 +37,10 @@
 		759ECFA92986D571008F39B5 /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFA82986D571008F39B5 /* Configurator.swift */; };
 		759ECFAC2986D595008F39B5 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFAB2986D595008F39B5 /* Configuration.swift */; };
 		759ECFB22986D75A008F39B5 /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFB12986D75A008F39B5 /* RepositoryProtocol.swift */; };
+		759ECFB52986D7C0008F39B5 /* AstroRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFB42986D7C0008F39B5 /* AstroRepository.swift */; };
+		759ECFB82986D7F8008F39B5 /* URLRequest+Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFB72986D7F8008F39B5 /* URLRequest+Headers.swift */; };
+		759ECFBE2986D844008F39B5 /* AstroRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFBD2986D844008F39B5 /* AstroRepositoryTests.swift */; };
+		759ECFBF2986D870008F39B5 /* MockAstroRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFBB2986D82C008F39B5 /* MockAstroRepository.swift */; };
 		E995328BA142FBE4B9FF26B8 /* Pods_Astro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C69564FE8CFF02DEAA1E7BE /* Pods_Astro.framework */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +90,10 @@
 		759ECFA82986D571008F39B5 /* Configurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
 		759ECFAB2986D595008F39B5 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		759ECFB12986D75A008F39B5 /* RepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryProtocol.swift; sourceTree = "<group>"; };
+		759ECFB42986D7C0008F39B5 /* AstroRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroRepository.swift; sourceTree = "<group>"; };
+		759ECFB72986D7F8008F39B5 /* URLRequest+Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Headers.swift"; sourceTree = "<group>"; };
+		759ECFBB2986D82C008F39B5 /* MockAstroRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAstroRepository.swift; sourceTree = "<group>"; };
+		759ECFBD2986D844008F39B5 /* AstroRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroRepositoryTests.swift; sourceTree = "<group>"; };
 		ABD88F79E1BEC7C35CDDD174 /* Pods-Astro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.release.xcconfig"; path = "Target Support Files/Pods-Astro/Pods-Astro.release.xcconfig"; sourceTree = "<group>"; };
 		D4E6679C596A0E46FC7B917B /* Pods_AstroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -160,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				759ECFA52986D4AC008F39B5 /* Configurations */,
+				759ECFB62986D7D7008F39B5 /* Extensions */,
 				759ECF732986B6DA008F39B5 /* Lifecycle */,
 				759ECF742986B875008F39B5 /* Networking */,
 				759ECFAD2986D723008F39B5 /* Repositories */,
@@ -306,8 +315,43 @@
 			isa = PBXGroup;
 			children = (
 				759ECFB12986D75A008F39B5 /* RepositoryProtocol.swift */,
+				759ECFB32986D7AF008F39B5 /* AstroRepository */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		759ECFB32986D7AF008F39B5 /* AstroRepository */ = {
+			isa = PBXGroup;
+			children = (
+				759ECFB42986D7C0008F39B5 /* AstroRepository.swift */,
+				759ECFB92986D80D008F39B5 /* Mocks */,
+				759ECFBA2986D812008F39B5 /* Tests */,
+			);
+			path = AstroRepository;
+			sourceTree = "<group>";
+		};
+		759ECFB62986D7D7008F39B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				759ECFB72986D7F8008F39B5 /* URLRequest+Headers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		759ECFB92986D80D008F39B5 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				759ECFBB2986D82C008F39B5 /* MockAstroRepository.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		759ECFBA2986D812008F39B5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				759ECFBD2986D844008F39B5 /* AstroRepositoryTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		81293EF8E2CDA469FA92C4C9 /* Pods */ = {
@@ -525,14 +569,17 @@
 				759ECF7A2986B8BC008F39B5 /* RequestConstructor.swift in Sources */,
 				759ECFB22986D75A008F39B5 /* RepositoryProtocol.swift in Sources */,
 				759ECF842986C797008F39B5 /* Astronaut.swift in Sources */,
+				759ECFB52986D7C0008F39B5 /* AstroRepository.swift in Sources */,
 				759ECF8A2986C7B3008F39B5 /* AstronautType.swift in Sources */,
 				759ECF6C2986B177008F39B5 /* Asset.swift in Sources */,
 				759ECF822986C77E008F39B5 /* AstroListResponse.swift in Sources */,
 				759ECF722986B60C008F39B5 /* Theme.swift in Sources */,
 				759ECFAC2986D595008F39B5 /* Configuration.swift in Sources */,
 				759ECF7C2986B8C6008F39B5 /* HTTPMethod.swift in Sources */,
+				759ECFB82986D7F8008F39B5 /* URLRequest+Headers.swift in Sources */,
 				759ECF3429869F87008F39B5 /* ContentView.swift in Sources */,
 				759ECF922986CEFC008F39B5 /* AstroService.swift in Sources */,
+				759ECFBF2986D870008F39B5 /* MockAstroRepository.swift in Sources */,
 				759ECF3229869F87008F39B5 /* AstroApp.swift in Sources */,
 				759ECF782986B8AE008F39B5 /* APIError.swift in Sources */,
 			);
@@ -542,6 +589,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759ECFBE2986D844008F39B5 /* AstroRepositoryTests.swift in Sources */,
 				759ECFA12986D39B008F39B5 /* MockAstroService.swift in Sources */,
 				759ECF9E2986D249008F39B5 /* AstroServiceTests.swift in Sources */,
 				759ECF9F2986D254008F39B5 /* MockURLProtocol.swift in Sources */,
