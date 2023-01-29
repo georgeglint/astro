@@ -13,6 +13,8 @@ class MockAstroListViewModel {
         let response = try? TestData.modelFromJSON(with: .astronauts) as AstroListResponse
         return response?.results ?? []
     }()
+    var filters: [AstronautType] = []
+    var selectedFilter: AstronautType?
     var hasMoreResults = false
 }
 
@@ -21,4 +23,8 @@ class MockAstroListViewModel {
 extension MockAstroListViewModel: AstroListViewModelProtocol {
     func fetchAstronauts() async {}
     func fetchNextAstronauts() async {}
+    func filterAstronautsIfNeeded() async {}
+    func isFilterSelected(_ filter: AstronautType) -> Bool { true }
+    func setSelectedFilter(_ filter: AstronautType?) {}
+    func resetToLiveFilter() {}
 }

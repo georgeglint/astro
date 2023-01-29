@@ -6,4 +6,11 @@
   
 */
 
+"a_apply" = "Apply";
+"a_clear" = "Clear";
+"a_filter" = "Filter";
+
+"d_all" = "All";
 "d_astronauts" = "Astronauts";
+"d_filter" = "Filter";
+"d_type" = "Type";

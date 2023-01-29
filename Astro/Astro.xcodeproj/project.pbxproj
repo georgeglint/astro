@@ -47,6 +47,9 @@
 		759ECFCD2986DD27008F39B5 /* MockAstroListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFCC2986DD27008F39B5 /* MockAstroListViewModel.swift */; };
 		759ECFD12986DE7E008F39B5 /* AstroListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFCF2986DE5D008F39B5 /* AstroListViewModelTests.swift */; };
 		759ECFD42986DF2E008F39B5 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 759ECFD32986DF2E008F39B5 /* SDWebImageSwiftUI */; };
+		759ECFD62986E065008F39B5 /* AstroFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFD52986E065008F39B5 /* AstroFilterView.swift */; };
+		759ECFD82986E06D008F39B5 /* AstroFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFD72986E06D008F39B5 /* AstroFilterRow.swift */; };
+		759ECFDA2986E302008F39B5 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 759ECFD92986E302008F39B5 /* SDWebImageSwiftUI */; };
 		E995328BA142FBE4B9FF26B8 /* Pods_Astro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C69564FE8CFF02DEAA1E7BE /* Pods_Astro.framework */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +108,8 @@
 		759ECFC92986DC89008F39B5 /* AstroListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroListRow.swift; sourceTree = "<group>"; };
 		759ECFCC2986DD27008F39B5 /* MockAstroListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAstroListViewModel.swift; sourceTree = "<group>"; };
 		759ECFCF2986DE5D008F39B5 /* AstroListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroListViewModelTests.swift; sourceTree = "<group>"; };
+		759ECFD52986E065008F39B5 /* AstroFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroFilterView.swift; sourceTree = "<group>"; };
+		759ECFD72986E06D008F39B5 /* AstroFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroFilterRow.swift; sourceTree = "<group>"; };
 		ABD88F79E1BEC7C35CDDD174 /* Pods-Astro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.release.xcconfig"; path = "Target Support Files/Pods-Astro/Pods-Astro.release.xcconfig"; sourceTree = "<group>"; };
 		D4E6679C596A0E46FC7B917B /* Pods_AstroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -123,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759ECFDA2986E302008F39B5 /* SDWebImageSwiftUI in Frameworks */,
 				3F03083F0041982C216C0933 /* Pods_AstroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +397,8 @@
 			children = (
 				759ECFC52986D99B008F39B5 /* AstroListView.swift */,
 				759ECFC92986DC89008F39B5 /* AstroListRow.swift */,
+				759ECFD52986E065008F39B5 /* AstroFilterView.swift */,
+				759ECFD72986E06D008F39B5 /* AstroFilterRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -463,6 +471,9 @@
 				759ECF4029869F88008F39B5 /* PBXTargetDependency */,
 			);
 			name = AstroTests;
+			packageProductDependencies = (
+				759ECFD92986E302008F39B5 /* SDWebImageSwiftUI */,
+			);
 			productName = AstroTests;
 			productReference = 759ECF3E29869F88008F39B5 /* AstroTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -625,6 +636,7 @@
 			files = (
 				759ECFC32986D973008F39B5 /* AstroListViewModel.swift in Sources */,
 				759ECF862986C79F008F39B5 /* Agency.swift in Sources */,
+				759ECFD62986E065008F39B5 /* AstroFilterView.swift in Sources */,
 				759ECFA92986D571008F39B5 /* Configurator.swift in Sources */,
 				759ECF762986B88D008F39B5 /* APIServiceProtocol.swift in Sources */,
 				759ECF6E2986B181008F39B5 /* L10n.swift in Sources */,
@@ -648,6 +660,7 @@
 				759ECFBF2986D870008F39B5 /* MockAstroRepository.swift in Sources */,
 				759ECF3229869F87008F39B5 /* AstroApp.swift in Sources */,
 				759ECFC62986D99B008F39B5 /* AstroListView.swift in Sources */,
+				759ECFD82986E06D008F39B5 /* AstroFilterRow.swift in Sources */,
 				759ECF782986B8AE008F39B5 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -960,6 +973,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		759ECFD32986DF2E008F39B5 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 759ECFD22986DF2E008F39B5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		759ECFD92986E302008F39B5 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 759ECFD22986DF2E008F39B5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;

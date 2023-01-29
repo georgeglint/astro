@@ -14,7 +14,19 @@ internal enum L10n {
   ///   Astro
   /// 
   ///   Created by George Leadbeater on 29/01/2023.
+  internal static let aApply = L10n.tr("Localizable", "a_apply", fallback: "Apply")
+  /// Clear
+  internal static let aClear = L10n.tr("Localizable", "a_clear", fallback: "Clear")
+  /// Filter
+  internal static let aFilter = L10n.tr("Localizable", "a_filter", fallback: "Filter")
+  /// All
+  internal static let dAll = L10n.tr("Localizable", "d_all", fallback: "All")
+  /// Astronauts
   internal static let dAstronauts = L10n.tr("Localizable", "d_astronauts", fallback: "Astronauts")
+  /// Filter
+  internal static let dFilter = L10n.tr("Localizable", "d_filter", fallback: "Filter")
+  /// Type
+  internal static let dType = L10n.tr("Localizable", "d_type", fallback: "Type")
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces
