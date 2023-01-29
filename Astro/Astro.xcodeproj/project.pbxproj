@@ -30,6 +30,9 @@
 		759ECF922986CEFC008F39B5 /* AstroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECF912986CEFC008F39B5 /* AstroService.swift */; };
 		759ECF942986CF35008F39B5 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 759ECF932986CF35008F39B5 /* astronauts.json */; };
 		759ECF962986CF68008F39B5 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECF952986CF68008F39B5 /* TestData.swift */; };
+		759ECF9E2986D249008F39B5 /* AstroServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECF982986D03D008F39B5 /* AstroServiceTests.swift */; };
+		759ECF9F2986D254008F39B5 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECF9C2986D06F008F39B5 /* MockURLProtocol.swift */; };
+		759ECFA12986D39B008F39B5 /* MockAstroService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECFA02986D39B008F39B5 /* MockAstroService.swift */; };
 		E995328BA142FBE4B9FF26B8 /* Pods_Astro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C69564FE8CFF02DEAA1E7BE /* Pods_Astro.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +75,9 @@
 		759ECF912986CEFC008F39B5 /* AstroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroService.swift; sourceTree = "<group>"; };
 		759ECF932986CF35008F39B5 /* astronauts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		759ECF952986CF68008F39B5 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		759ECF982986D03D008F39B5 /* AstroServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroServiceTests.swift; sourceTree = "<group>"; };
+		759ECF9C2986D06F008F39B5 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		759ECFA02986D39B008F39B5 /* MockAstroService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAstroService.swift; sourceTree = "<group>"; };
 		ABD88F79E1BEC7C35CDDD174 /* Pods-Astro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.release.xcconfig"; path = "Target Support Files/Pods-Astro/Pods-Astro.release.xcconfig"; sourceTree = "<group>"; };
 		D4E6679C596A0E46FC7B917B /* Pods_AstroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -207,6 +213,7 @@
 				759ECF7B2986B8C6008F39B5 /* HTTPMethod.swift */,
 				759ECF792986B8BC008F39B5 /* RequestConstructor.swift */,
 				759ECF7D2986C71C008F39B5 /* AstroService */,
+				759ECF9A2986D056008F39B5 /* Tests */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -217,6 +224,7 @@
 				759ECF912986CEFC008F39B5 /* AstroService.swift */,
 				759ECF802986C754008F39B5 /* Models */,
 				759ECF8F2986CECF008F39B5 /* Mocks */,
+				759ECF972986D02A008F39B5 /* Tests */,
 			);
 			path = AstroService;
 			sourceTree = "<group>";
@@ -237,6 +245,31 @@
 			isa = PBXGroup;
 			children = (
 				759ECF932986CF35008F39B5 /* astronauts.json */,
+				759ECFA02986D39B008F39B5 /* MockAstroService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		759ECF972986D02A008F39B5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				759ECF982986D03D008F39B5 /* AstroServiceTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		759ECF9A2986D056008F39B5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				759ECF9B2986D05D008F39B5 /* Mocks */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		759ECF9B2986D05D008F39B5 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				759ECF9C2986D06F008F39B5 /* MockURLProtocol.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -469,6 +502,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759ECFA12986D39B008F39B5 /* MockAstroService.swift in Sources */,
+				759ECF9E2986D249008F39B5 /* AstroServiceTests.swift in Sources */,
+				759ECF9F2986D254008F39B5 /* MockURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
