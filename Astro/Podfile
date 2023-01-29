@@ -5,7 +5,7 @@ target 'Astro' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Astro
+  pod 'SwiftGen'
 
   target 'AstroTests' do
     inherit! :search_paths

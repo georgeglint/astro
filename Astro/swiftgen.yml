@@ -1,0 +1,16 @@
+
+## Localization
+strings:
+  inputs: Astro/Core/Resources/Localization/en.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: Astro/Core/Resources/Localization/L10n.swift
+
+## Assets
+xcassets:
+  inputs:
+    - Astro/Core/Resources/Assets/Colors.xcassets
+    - Astro/Core/Resources/Assets/Images.xcassets
+  outputs:
+    templateName: swift5
+    output: Astro/Core/Resources/Assets/Asset.swift

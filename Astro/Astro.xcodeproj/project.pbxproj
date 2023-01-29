@@ -10,8 +10,13 @@
 		3F03083F0041982C216C0933 /* Pods_AstroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E6679C596A0E46FC7B917B /* Pods_AstroTests.framework */; };
 		759ECF3229869F87008F39B5 /* AstroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECF3129869F87008F39B5 /* AstroApp.swift */; };
 		759ECF3429869F87008F39B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECF3329869F87008F39B5 /* ContentView.swift */; };
-		759ECF3629869F88008F39B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759ECF3529869F88008F39B5 /* Assets.xcassets */; };
 		759ECF3929869F88008F39B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759ECF3829869F88008F39B5 /* Preview Assets.xcassets */; };
+		759ECF612986B01A008F39B5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 759ECF632986B01A008F39B5 /* Localizable.strings */; };
+		759ECF652986B057008F39B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759ECF642986B057008F39B5 /* Images.xcassets */; };
+		759ECF672986B066008F39B5 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759ECF662986B066008F39B5 /* Colors.xcassets */; };
+		759ECF6A2986B159008F39B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759ECF692986B159008F39B5 /* Assets.xcassets */; };
+		759ECF6C2986B177008F39B5 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECF6B2986B177008F39B5 /* Asset.swift */; };
+		759ECF6E2986B181008F39B5 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECF6D2986B181008F39B5 /* L10n.swift */; };
 		E995328BA142FBE4B9FF26B8 /* Pods_Astro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C69564FE8CFF02DEAA1E7BE /* Pods_Astro.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,9 +38,14 @@
 		759ECF2E29869F87008F39B5 /* Astro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759ECF3129869F87008F39B5 /* AstroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroApp.swift; sourceTree = "<group>"; };
 		759ECF3329869F87008F39B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		759ECF3529869F88008F39B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		759ECF3829869F88008F39B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		759ECF3E29869F88008F39B5 /* AstroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759ECF622986B01A008F39B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		759ECF642986B057008F39B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		759ECF662986B066008F39B5 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		759ECF692986B159008F39B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		759ECF6B2986B177008F39B5 /* Asset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		759ECF6D2986B181008F39B5 /* L10n.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
 		ABD88F79E1BEC7C35CDDD174 /* Pods-Astro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.release.xcconfig"; path = "Target Support Files/Pods-Astro/Pods-Astro.release.xcconfig"; sourceTree = "<group>"; };
 		D4E6679C596A0E46FC7B917B /* Pods_AstroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,9 +101,10 @@
 		759ECF3029869F87008F39B5 /* Astro */ = {
 			isa = PBXGroup;
 			children = (
+				759ECF5B2986AFA3008F39B5 /* Core */,
 				759ECF3129869F87008F39B5 /* AstroApp.swift */,
 				759ECF3329869F87008F39B5 /* ContentView.swift */,
-				759ECF3529869F88008F39B5 /* Assets.xcassets */,
+				759ECF692986B159008F39B5 /* Assets.xcassets */,
 				759ECF3729869F88008F39B5 /* Preview Content */,
 			);
 			path = Astro;
@@ -102,9 +113,45 @@
 		759ECF3729869F88008F39B5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				759ECF3829869F88008F39B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		759ECF5B2986AFA3008F39B5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				759ECF5C2986AFB0008F39B5 /* Resources */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		759ECF5C2986AFB0008F39B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				759ECF5D2986AFED008F39B5 /* Assets */,
+				759ECF5E2986AFF3008F39B5 /* Localization */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		759ECF5D2986AFED008F39B5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				759ECF642986B057008F39B5 /* Images.xcassets */,
+				759ECF662986B066008F39B5 /* Colors.xcassets */,
+				759ECF3829869F88008F39B5 /* Preview Assets.xcassets */,
+				759ECF6B2986B177008F39B5 /* Asset.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		759ECF5E2986AFF3008F39B5 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				759ECF632986B01A008F39B5 /* Localizable.strings */,
+				759ECF6D2986B181008F39B5 /* L10n.swift */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		81293EF8E2CDA469FA92C4C9 /* Pods */ = {
@@ -115,7 +162,6 @@
 				02968FE1A7DD5FAB04567361 /* Pods-AstroTests.debug.xcconfig */,
 				00D397EBA632EE3B5B614EDC /* Pods-AstroTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,6 +176,7 @@
 				759ECF2A29869F87008F39B5 /* Sources */,
 				759ECF2B29869F87008F39B5 /* Frameworks */,
 				759ECF2C29869F87008F39B5 /* Resources */,
+				759ECF682986B095008F39B5 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -202,8 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759ECF652986B057008F39B5 /* Images.xcassets in Resources */,
+				759ECF672986B066008F39B5 /* Colors.xcassets in Resources */,
 				759ECF3929869F88008F39B5 /* Preview Assets.xcassets in Resources */,
-				759ECF3629869F88008F39B5 /* Assets.xcassets in Resources */,
+				759ECF612986B01A008F39B5 /* Localizable.strings in Resources */,
+				759ECF6A2986B159008F39B5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +289,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		759ECF682986B095008F39B5 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/SwiftGen/bin/swiftgen\"\n";
+		};
 		CBF2163A1336684ADC0FB169 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,6 +337,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759ECF6E2986B181008F39B5 /* L10n.swift in Sources */,
+				759ECF6C2986B177008F39B5 /* Asset.swift in Sources */,
 				759ECF3429869F87008F39B5 /* ContentView.swift in Sources */,
 				759ECF3229869F87008F39B5 /* AstroApp.swift in Sources */,
 			);
@@ -289,6 +360,17 @@
 			targetProxy = 759ECF3F29869F88008F39B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		759ECF632986B01A008F39B5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759ECF622986B01A008F39B5 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		759ECF5029869F88008F39B5 /* Debug */ = {
