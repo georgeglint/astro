@@ -38,7 +38,7 @@ The app was built using MVVM as the design pattern of choice. My usual go-to in 
 
 I’ve previously worked with VIPER, which felt like a great idea at the time but the additional Interactor layer became really cumbersome to make changes to and ended up affecting development speed. I find that MVVM is a good balance of testability, abstraction and promotes single responsibility.
 
-![App Architecture](https://user-images.githubusercontent.com/123869119/215353612-51f314e8-3012-4e8e-9ae7-9473e98e5b61.jpg)
+![App Architecture](https://user-images.githubusercontent.com/123869119/215354335-dd68396d-b279-40ce-b8a5-26b3af0a0f46.jpg)
 
 As illustrated above, the architecture is heavily protocol-based to improve testability - we can easily inject a mocked version of the Repository for example, which we do to test our AstroListViewModel behaves correctly when receiving (mock) data.
 
