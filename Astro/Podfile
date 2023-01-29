@@ -6,6 +6,7 @@ target 'Astro' do
   use_frameworks!
 
   pod 'SwiftGen'
+  pod 'SwiftLint'
 
   target 'AstroTests' do
     inherit! :search_paths

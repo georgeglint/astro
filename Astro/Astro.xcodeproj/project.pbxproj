@@ -177,6 +177,7 @@
 				759ECF2B29869F87008F39B5 /* Frameworks */,
 				759ECF2C29869F87008F39B5 /* Resources */,
 				759ECF682986B095008F39B5 /* SwiftGen */,
+				759ECF6F2986B3AE008F39B5 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -307,6 +308,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/SwiftGen/bin/swiftgen\"\n";
+		};
+		759ECF6F2986B3AE008F39B5 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		CBF2163A1336684ADC0FB169 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

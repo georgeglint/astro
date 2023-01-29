@@ -15,32 +15,50 @@
 			dependencies = (
 			);
 			name = SwiftGen;
+			productName = SwiftGen;
+		};
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
 		18AEA32359317B4889FFA83D0DC4CF48 /* Pods-AstroTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D58CDD879F283EDBFFA3761434CB1F /* Pods-AstroTests-dummy.m */; };
-		463F11844A43E16646FEBDFCC35365C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		25D08F3C9624962DD5A051C4DF8F9899 /* Pods-Astro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4725339607B6060F0F1220438189F1 /* Pods-Astro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B0329AC2826B341199AAF4F661A330F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6554B31CCC9A73EC369AE06D5053A98D /* Pods-Astro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4725339607B6060F0F1220438189F1 /* Pods-Astro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C041BFC65484E90BEB989A91E7A9506 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A5B684A04AB93D0FEE0936334824BA90 /* Pods-AstroTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17629DF75CA8276CB396D1BA7F4C1A8E /* Pods-AstroTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF8FDDF660DC91E5D05C832B643B8461 /* Pods-Astro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F413E94BCBFDE9CC170BDEEFB7DC2 /* Pods-Astro-dummy.m */; };
+		B59950ED91FDE4472D53BE7AC7F17568 /* Pods-Astro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F413E94BCBFDE9CC170BDEEFB7DC2 /* Pods-Astro-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		74FE845243B995B0728078172F577F0E /* PBXContainerItemProxy */ = {
+		B04FDDAD3CD787C5DC23C9C6DA535AEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 95F138540CD91DBC4F0ECC64D73E366B;
-			remoteInfo = "Pods-Astro";
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
 		};
-		B0C6C44E9A2D55018F0DA5438663F566 /* PBXContainerItemProxy */ = {
+		B9B92B57C97D4EEB3A7A7A9CB148C039 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
 			remoteInfo = SwiftGen;
+		};
+		F595C203696B5390B55330D732AF2728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F138540CD91DBC4F0ECC64D73E366B;
+			remoteInfo = "Pods-Astro";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,28 +71,30 @@
 		2A4725339607B6060F0F1220438189F1 /* Pods-Astro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Astro-umbrella.h"; sourceTree = "<group>"; };
 		316F96CE3D989BF1286E0D7FB2132164 /* Pods-AstroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AstroTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3767AC7E0125E613E0DD5F398052BAA1 /* Pods-AstroTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AstroTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C00EB77C497573FF9D21FFD48AC279F /* SwiftGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.release.xcconfig; sourceTree = "<group>"; };
 		3DD8807A326052E25A999FEA5E3866ED /* Pods-AstroTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AstroTests-Info.plist"; sourceTree = "<group>"; };
 		40D0897C4106D00E6B0FE51A0D8124F7 /* Pods-Astro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Astro.modulemap"; sourceTree = "<group>"; };
 		486D6FBA332C95045A60D18216D568DE /* Pods-AstroTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AstroTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		654A6C84F21020C373FDFA753A8BEF57 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		6B4F8F3FE262E6A67B23F824C11E398C /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		72C2853829D57E9ACEA2C964414E07D4 /* Pods-AstroTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AstroTests"; path = Pods_AstroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8FC9A8CCA98453AB60EB84BCD99F9B6A /* Pods-Astro */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Astro"; path = Pods_Astro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A702D11D36672372EE16FAD14FB13E72 /* Pods-AstroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AstroTests.release.xcconfig"; sourceTree = "<group>"; };
-		B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.release.xcconfig; sourceTree = "<group>"; };
+		B3DA6E6F2A1F5E119072913BFDF06794 /* SwiftGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.debug.xcconfig; sourceTree = "<group>"; };
 		B7D58CDD879F283EDBFFA3761434CB1F /* Pods-AstroTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AstroTests-dummy.m"; sourceTree = "<group>"; };
 		C69D6B064935E7D2D3944FAC5D51EBAC /* Pods-Astro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Astro-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F9DFD0FD23C8579A8E4C8B57F0AEEF1C /* Pods-Astro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Astro.debug.xcconfig"; sourceTree = "<group>"; };
-		FD691AE7128F940D3B179941FCEC2F54 /* SwiftGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.debug.xcconfig; sourceTree = "<group>"; };
 		FF625258C4D7BD0235DBC0C1CFBD1053 /* Pods-Astro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Astro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		721FB5517D90F510C50F7F74CB5BCA14 /* Frameworks */ = {
+		1F974E5D482D51510BD50DE947EA7A36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				463F11844A43E16646FEBDFCC35365C2 /* Foundation.framework in Frameworks */,
+				7C041BFC65484E90BEB989A91E7A9506 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,12 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08DF4A29620F30ECCD85AE71F22FD52C /* Pods */ = {
+		463A951ECF142606318EFB8EB73F16FA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				878C176E7A3E3DF8BAB24F0858DEDDDD /* SwiftGen */,
+				6B4F8F3FE262E6A67B23F824C11E398C /* SwiftLint.debug.xcconfig */,
+				654A6C84F21020C373FDFA753A8BEF57 /* SwiftLint.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
 		4C30DAB89534FDB21447F596F69A62F9 /* Pods-Astro */ = {
@@ -121,23 +143,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		878C176E7A3E3DF8BAB24F0858DEDDDD /* SwiftGen */ = {
+		57CE83037799B0E54C14ED0DAB124221 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AB4F699EB2CE4C63CBA1FEFDD0861DAA /* Support Files */,
+				DB5E32CA8DDFDB8C0200EB70B70C6363 /* SwiftGen */,
+				7EE0E8A4D47E630617D6FA1C06D52FB4 /* SwiftLint */,
 			);
-			name = SwiftGen;
-			path = SwiftGen;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		AB4F699EB2CE4C63CBA1FEFDD0861DAA /* Support Files */ = {
+		7EE0E8A4D47E630617D6FA1C06D52FB4 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				FD691AE7128F940D3B179941FCEC2F54 /* SwiftGen.debug.xcconfig */,
-				B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */,
+				463A951ECF142606318EFB8EB73F16FA /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftGen";
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -145,7 +165,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				08DF4A29620F30ECCD85AE71F22FD52C /* Pods */,
+				57CE83037799B0E54C14ED0DAB124221 /* Pods */,
 				D004F06EEE55A624BC2912205CF8F671 /* Products */,
 				E1872EF427C80AA3113ED9EDA3128B6E /* Targets Support Files */,
 			);
@@ -184,6 +204,14 @@
 			path = "Target Support Files/Pods-AstroTests";
 			sourceTree = "<group>";
 		};
+		DB5E32CA8DDFDB8C0200EB70B70C6363 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				FA1FE80EF3FAD8A89ED8759D7F931102 /* Support Files */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
 		E1872EF427C80AA3113ED9EDA3128B6E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +219,16 @@
 				D49292A94262F66C089B77433DDD0EB1 /* Pods-AstroTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FA1FE80EF3FAD8A89ED8759D7F931102 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3DA6E6F2A1F5E119072913BFDF06794 /* SwiftGen.debug.xcconfig */,
+				3C00EB77C497573FF9D21FFD48AC279F /* SwiftGen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,11 +242,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		695DAFD6CE1BA96E155B05D21D89223D /* Headers */ = {
+		F673B819BE3E5F60E5B2C969E534ED8E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6554B31CCC9A73EC369AE06D5053A98D /* Pods-Astro-umbrella.h in Headers */,
+				25D08F3C9624962DD5A051C4DF8F9899 /* Pods-Astro-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,17 +255,18 @@
 /* Begin PBXNativeTarget section */
 		95F138540CD91DBC4F0ECC64D73E366B /* Pods-Astro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 740F5D0E46324EA5B9DBC8269AF7B3A5 /* Build configuration list for PBXNativeTarget "Pods-Astro" */;
+			buildConfigurationList = FD9AAC31E1DE0D2093B60D2C81F216E7 /* Build configuration list for PBXNativeTarget "Pods-Astro" */;
 			buildPhases = (
-				695DAFD6CE1BA96E155B05D21D89223D /* Headers */,
-				8BC75C9C25EF4C65F6F5BBE504CF08E9 /* Sources */,
-				721FB5517D90F510C50F7F74CB5BCA14 /* Frameworks */,
-				E8E8E052DB1A01926EF6F598AD90C230 /* Resources */,
+				F673B819BE3E5F60E5B2C969E534ED8E /* Headers */,
+				93C32E8EBC04FBADAC805366EFF70E11 /* Sources */,
+				1F974E5D482D51510BD50DE947EA7A36 /* Frameworks */,
+				472433F50644CDDADB6E69382A60C456 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AFD7BA27399429757857A8CCEE5063B2 /* PBXTargetDependency */,
+				EE87D5906A7BFCFE23C2E88278D619D0 /* PBXTargetDependency */,
+				1EB4CA5C986024696B217EE5AAA7E05A /* PBXTargetDependency */,
 			);
 			name = "Pods-Astro";
 			productName = Pods_Astro;
@@ -246,7 +285,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E9CAF7D384665920C5105B9852D63466 /* PBXTargetDependency */,
+				A5DF7AF68ABCFB527C73A664483957EA /* PBXTargetDependency */,
 			);
 			name = "Pods-AstroTests";
 			productName = Pods_AstroTests;
@@ -260,7 +299,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1400;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -278,6 +317,7 @@
 				95F138540CD91DBC4F0ECC64D73E366B /* Pods-Astro */,
 				E198F0ADD235E3C41C0E33743651CFFB /* Pods-AstroTests */,
 				1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +330,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8E8E052DB1A01926EF6F598AD90C230 /* Resources */ = {
+		472433F50644CDDADB6E69382A60C456 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,11 +340,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8BC75C9C25EF4C65F6F5BBE504CF08E9 /* Sources */ = {
+		93C32E8EBC04FBADAC805366EFF70E11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8FDDF660DC91E5D05C832B643B8461 /* Pods-Astro-dummy.m in Sources */,
+				B59950ED91FDE4472D53BE7AC7F17568 /* Pods-Astro-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,17 +359,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AFD7BA27399429757857A8CCEE5063B2 /* PBXTargetDependency */ = {
+		1EB4CA5C986024696B217EE5AAA7E05A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftGen;
-			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
-			targetProxy = B0C6C44E9A2D55018F0DA5438663F566 /* PBXContainerItemProxy */;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = B04FDDAD3CD787C5DC23C9C6DA535AEA /* PBXContainerItemProxy */;
 		};
-		E9CAF7D384665920C5105B9852D63466 /* PBXTargetDependency */ = {
+		A5DF7AF68ABCFB527C73A664483957EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Astro";
 			target = 95F138540CD91DBC4F0ECC64D73E366B /* Pods-Astro */;
-			targetProxy = 74FE845243B995B0728078172F577F0E /* PBXContainerItemProxy */;
+			targetProxy = F595C203696B5390B55330D732AF2728 /* PBXContainerItemProxy */;
+		};
+		EE87D5906A7BFCFE23C2E88278D619D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = B9B92B57C97D4EEB3A7A7A9CB148C039 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -373,11 +419,11 @@
 		};
 		2202230BF25CAB2FDC609A71D79055BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD691AE7128F940D3B179941FCEC2F54 /* SwiftGen.debug.xcconfig */;
+			baseConfigurationReference = B3DA6E6F2A1F5E119072913BFDF06794 /* SwiftGen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,6 +468,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -446,6 +493,44 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		349022FE318619E33A10C11CACD4392A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF625258C4D7BD0235DBC0C1CFBD1053 /* Pods-Astro.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Astro/Pods-Astro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Astro/Pods-Astro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -487,7 +572,24 @@
 			};
 			name = Release;
 		};
-		A74A87E39BC457FD918D56C0821D148F /* Debug */ = {
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 654A6C84F21020C373FDFA753A8BEF57 /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBC823FE220049CC78D5040AC2EBAD9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9DFD0FD23C8579A8E4C8B57F0AEEF1C /* Pods-Astro.debug.xcconfig */;
 			buildSettings = {
@@ -524,51 +626,13 @@
 			};
 			name = Debug;
 		};
-		A7E11AABC632209E28BEB071081AF4AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF625258C4D7BD0235DBC0C1CFBD1053 /* Pods-Astro.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Astro/Pods-Astro-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Astro/Pods-Astro.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CF3B4AB84D0F77E437676BAFB9C2086C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */;
+			baseConfigurationReference = 3C00EB77C497573FF9D21FFD48AC279F /* SwiftGen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -578,6 +642,22 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4F8F3FE262E6A67B23F824C11E398C /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -614,6 +694,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -666,11 +747,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		740F5D0E46324EA5B9DBC8269AF7B3A5 /* Build configuration list for PBXNativeTarget "Pods-Astro" */ = {
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A74A87E39BC457FD918D56C0821D148F /* Debug */,
-				A7E11AABC632209E28BEB071081AF4AC /* Release */,
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -680,6 +761,15 @@
 			buildConfigurations = (
 				2202230BF25CAB2FDC609A71D79055BB /* Debug */,
 				CF3B4AB84D0F77E437676BAFB9C2086C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9AAC31E1DE0D2093B60D2C81F216E7 /* Build configuration list for PBXNativeTarget "Pods-Astro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC823FE220049CC78D5040AC2EBAD9E /* Debug */,
+				349022FE318619E33A10C11CACD4392A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
