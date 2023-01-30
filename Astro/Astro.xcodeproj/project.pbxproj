@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F03083F0041982C216C0933 /* Pods_AstroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E6679C596A0E46FC7B917B /* Pods_AstroTests.framework */; };
-		7507689229880078001DFD75 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7507689129880078001DFD75 /* Colors.xcassets */; };
 		759ECF3229869F87008F39B5 /* AstroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759ECF3129869F87008F39B5 /* AstroApp.swift */; };
 		759ECF3929869F88008F39B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759ECF3829869F88008F39B5 /* Preview Assets.xcassets */; };
 		759ECF612986B01A008F39B5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 759ECF632986B01A008F39B5 /* Localizable.strings */; };
@@ -74,7 +73,6 @@
 		02968FE1A7DD5FAB04567361 /* Pods-AstroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstroTests.debug.xcconfig"; path = "Target Support Files/Pods-AstroTests/Pods-AstroTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C69564FE8CFF02DEAA1E7BE /* Pods_Astro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4705D708245D968EBC765611 /* Pods-Astro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.debug.xcconfig"; path = "Target Support Files/Pods-Astro/Pods-Astro.debug.xcconfig"; sourceTree = "<group>"; };
-		7507689129880078001DFD75 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		759ECF2E29869F87008F39B5 /* Astro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		759ECF3129869F87008F39B5 /* AstroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroApp.swift; sourceTree = "<group>"; };
 		759ECF3829869F88008F39B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -212,7 +210,6 @@
 			isa = PBXGroup;
 			children = (
 				759ECFEF298708D7008F39B5 /* AppIcon.xcassets */,
-				7507689129880078001DFD75 /* Colors.xcassets */,
 				759ECF642986B057008F39B5 /* Images.xcassets */,
 				759ECF3829869F88008F39B5 /* Preview Assets.xcassets */,
 				759ECF6B2986B177008F39B5 /* Asset.swift */,
@@ -573,7 +570,6 @@
 				759ECFA72986D4C7008F39B5 /* Configurations.plist in Resources */,
 				759ECF612986B01A008F39B5 /* Localizable.strings in Resources */,
 				759ECFF0298708D7008F39B5 /* AppIcon.xcassets in Resources */,
-				7507689229880078001DFD75 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

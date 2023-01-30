@@ -23,7 +23,7 @@ struct AstroFilterRow: View {
                 .padding(.vertical, theme.spacing.small)
             Spacer()
             if isSelected {
-                Image(asset: Asset.Images.radioChecked)
+                Image(asset: Asset.radioChecked)
                     .padding(theme.spacing.small)
             }
         }

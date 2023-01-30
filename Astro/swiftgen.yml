@@ -9,7 +9,6 @@ strings:
 ## Assets
 xcassets:
   inputs:
-    - Astro/Core/Resources/Assets/Colors.xcassets
     - Astro/Core/Resources/Assets/Images.xcassets
   outputs:
     templateName: swift5

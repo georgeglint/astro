@@ -59,7 +59,7 @@ struct AstroFilterView<Model>: View where Model: AstroListViewModelProtocol {
                         action = .cancel
                         isPresented = false
                     } label: {
-                        Image(asset: Asset.Images.close)
+                        Image(asset: Asset.close)
                     }
                 }
             }

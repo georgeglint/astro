@@ -22,12 +22,8 @@ internal typealias AssetImageTypeAlias = ImageAsset.Image
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 internal enum Asset {
-  internal enum Colors {
-  }
-  internal enum Images {
-    internal static let close = ImageAsset(name: "close")
-    internal static let radioChecked = ImageAsset(name: "radioChecked")
-  }
+  internal static let close = ImageAsset(name: "close")
+  internal static let radioChecked = ImageAsset(name: "radioChecked")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 

@@ -6,6 +6,12 @@ Briefly, the challenge was to:
 - Support filtering of the list by a given criteria
 - When an individual item is tapped, navigate to a details view
 
+## Installation
+
+1. Open the Astro.xcworkspace file found in Astro/Astro.xcworkspace. This is necessary when using CocoaPods to ensure dependencies are resolved correctly
+2. Xcode -> File -> Packages -> Resolve Package Versions
+3. Build and run
+
 ## My thought process
 
 After understanding the requirements, I used the provided Swagger docs to ensure the astronaut endpoint was sufficient for the task.
@@ -15,7 +21,7 @@ I did encounter an issue with filtering on the **/2.2.0/astronaut** endpoint, wh
 Filtering by astronaut **type** was however possible, so I used this as a filtering criteria instead.
 
 After deciding on an app architecture (detailed in the App Architecture section below) I selected two dependencies to use, both installed via their recommended installation method, CocoaPods:
-- [SwiftGen](https://github.com/SwiftGen/SwiftGen) - to ensure our images, colours and localisable strings are type-safe, and accessible via automatically generated Asset and L10n enums respectively.
+- [SwiftGen](https://github.com/SwiftGen/SwiftGen) - to ensure our images and localisable strings are type-safe, and accessible via automatically generated Asset and L10n enums respectively.
 - [SwiftLint](https://github.com/realm/SwiftLint) - to enforce community-recognised Swift styling and conventions across the project.
 
 The Xcode project was created using a SwiftUI interface and lifecycle, as this most closely matches the route I believe Glint are taking!
